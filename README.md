@@ -1,4 +1,29 @@
-# Customized-LLM-APP
+# Mental Health Companion Chatbot 🧠
+
+Welcome to the **Mental Health Companion Chatbot**! This application is designed to provide users with compassionate and accurate advice on various mental health topics using a combination of pre-existing mental health guidebooks and advanced language models.
+
+## Features
+
+- **Contextual Responses**: Provides responses based on a combination of user input and relevant documents.
+- **Mental Health Guidance**: Offers information on wellness, coping strategies, emotional support, and more.
+- **Interactive Chat Interface**: Users can interact with the chatbot using a friendly and intuitive interface.
+
+## Requirements
+
+Ensure you have the following dependencies installed:
+
+- `gradio`
+- `huggingface_hub`
+- `PyMuPDF` (for PDF handling)
+- `sentence_transformers` (for embedding and search)
+- `faiss` (for vector search)
+- `numpy`
+
+You can install these dependencies using pip:
+
+```bash
+pip install gradio huggingface_hub pymupdf sentence_transformers faiss-cpu numpy
+
 
 Building a Retrieval-Augmented Generation (RAG) bot can significantly enhance the capabilities of a language model by incorporating external knowledge to generate more accurate and contextually relevant responses. This guide will walk you through creating a simple RAG bot using Gradio and the Hugging Face APIs.
 
